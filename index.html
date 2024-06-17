@@ -15,6 +15,51 @@
             button{background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;}
             button a{color: white; font-weight: bold; font-size: 15px;}
         </style>
+        <style>
+            .container {
+            position: relative;
+            width: 50%;
+            height: 0.5%;
+            }
+            
+            .image {
+            display: block;
+            width: 100%;
+            height: 50%;
+            }
+            
+            .overlay {
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            background-image: url("dbdsadakobg.jpg");
+            background-position: center;
+            overflow: hidden;
+            width: 100%;
+            height:0%;
+            transition: .5s ease;
+            }
+            
+            .container:hover .overlay {
+            bottom: 45%;
+            height: 55%;
+            }
+            
+            .text {
+            color: white;
+            font-family: Verdana;
+            font-size: 100px;
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+            opacity: 100%;
+            }
+            </style>
     </head>
     <body>
         <nav class="navbar">
@@ -30,25 +75,26 @@
             </div>
         </nav>
     <div style="border: 5px outset red;">
+        <div class="container">
+            <img src="killertopdbd-01.jpg" width="200" height="50"alt="Avatar" class="image">
+        <div class="overlay">
+            <div class="text"><a href="killers.html" target=”>Killers</a></div>
         <div style="margin:auto;">
-            <h1>Dead by Daylight!</h1>
         <div style="text-align:center;">
-            <a href="killers.html"><img onmouseout='this.src="https:/static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/06/IconHelpLoading_killer.png";'
-            onmouseover="this.src='killertopdbd-01.jpg';"
-            src="https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/06/IconHelpLoading_killer.png" alt="https://hard-drive.net/wp-content/uploads/2023/08/jerma-killer.jpg"></a>
+            <a href="killers.html"><img src="https:/static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/06/IconHelpLoading_killer.png"; alt="https://hard-drive.net/wp-content/uploads/2023/08/jerma-killer.jpg"></a>
+        </div>
+        </div>
+    </div>
+    <div style="border: 5px outset rgb(12, 0, 147);">
+        <div class="container">
+            <img src="killertopdbd-01.jpg" width="200" height="50"alt="Avatar" class="image">
+        <div class="overlay">
+            <div class="text"><a href="survivors.html" target=”>Survivors</a></div>
+        <div style="margin:auto;">
+        <div style="text-align:center;">
+            <a href="survivors.html"><img src="https:/static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/IconHelpLoading_survivor.png"></a>
         </div>
         </div>
     </div>
     </body>
-    <div style="border: 5px outset red;">
-        <div style="margin:auto;">
-            <h1>Dead by Daylight!</h1>
-        <a href="survivors.html">Visit the killers!</a>
-        <div style="text-align:center;">
-            <a href="survivors.html"><img onmouseout='this.src="https:/static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/IconHelpLoading_survivor.png";'
-            onmouseover="this.src='deadbydaylowquality.jpg';" 
-            src="https:/static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/IconHelpLoading_survivor.png" alt="https://hard-drive.net/wp-content/uploads/2023/08/jerma-killer.jpg"></a>
-        </div>
-        </div>
-    </div>
 </html>
