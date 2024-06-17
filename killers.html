@@ -1,9 +1,91 @@
 <html>
-    <body>
+<head>
+    <div style="margin:auto;">
+        <title>dbdwebsite</title>
+        <link rel="stylesheet" href="style.css">
+    </div>
+    <style type="text/css">
+        *{text-decoration: none;}
+        .navbar{background: #1d1d1d; font-family: calibri; padding-right: 15px;padding-left: 15px;}
+        .navdiv{display: flex; align-items: center; justify-content: space-between;}
+        .logo a{font-size: 35px; font-weight: 600; color: white;}
+        li{list-style: none; display: inline-block;}
+        li a{color: white; font-size: 18px; font-weight: bold; margin-right: 25px;}
+        button{background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;}
+        button a{color: white; font-weight: bold; font-size: 15px;}
+    </style>
+    <style>
+        .container {
+        position: relative;
+        width: 20%;
+        }
+        
+        .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        }
+        
+        .overlay {
+        position: absolute;
+        bottom: 50%;
+        left: 0;
+        right: 100;
+        background-image: url("QkHQRt.gif");
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        width: 100%;
+        height:0;
+        transition: .5s ease;
+        }
+        
+        .container:hover .overlay {
+        bottom: 0;
+        height: 100%;
+        }
+        
+        .text {
+        color: white;
+        font-family: Verdana;
+        font-size: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 1%;
+        }
+        </style>
+</head>
+    
+<body>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="index.html">Dead by Daylight Info Hub</a> </div>
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UCaSgsFdGbwjfdawl3rOXiwQ"target=”_blank”>Media</a></li>
+                    <li><a href="https://deadbydaylight.com/game/" target=”_blank”>About</a></li>
+                    <li><a href="https://forums.bhvr.com/dead-by-daylight"target=”_blank”>Forums</a></li>
+                    <button><a href="#">SignIn</a></button>
+                    <button><a href="https://deadbydaylight.us20.list-manage.com/subscribe?u=5547c2b6258a4a891a7bf1bb4&id=08654e19bf" target=”_blank”>SignUp</a></button>
+                </ul>
+            </div>
+        </nav>
+<div class="container">
+<img src="trapperforwebsite.jpg" alt="Avatar" class="image">
+<div class="overlay">
+    <div class="text"><a href="https://www.youtube.com/watch?v=cKN9_CbjCmE" target=”_blank”>THE ENTITY</a></div>
+</div>
+</div>
+        <link rel="stylesheet" href="style.css">
         <div>
             <img onmouseout='this.src="trapperforwebsite.jpg";'width="200" height="auto"
             onmouseover="this.src='QkHQRt.gif';" width="200" height="auto"
-            src="https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/06/IconHelpLoading_killer.png" alt="https://preview.redd.it/3w3x6lywsum61.png?auto=webp&s=f087cb039333f380c9bb2b9bf7cca54cc65e6e21"
+            src="trapperforwebsite.jpg" alt="https://preview.redd.it/3w3x6lywsum61.png?auto=webp&s=f087cb039333f380c9bb2b9bf7cca54cc65e6e21"
             >
         </div>
         <div style="position: relative; left: 200px; margin-top: -307.4;">
